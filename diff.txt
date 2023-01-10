@@ -1,0 +1,61 @@
+2c2
+< Date: Tue, 10 Jan 2023 00:20:24 GMT
+---
+> Date: Tue, 10 Jan 2023 00:20:37 GMT
+19d18
+< <P>No form fields.
+20a20,21
+> <DT>X: <i>&lt;type 'instance'&gt;</i>
+> <DD>MiniFieldStorage('X', 'Y')
+25a27,28
+> <DT> CONTENT_LENGTH <DD> 3
+> <DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+30d32
+< <DT> HTTPS <DD> on
+37,39c39,41
+< <DT> REMOTE_PORT <DD> 52038
+< <DT> REQUEST_METHOD <DD> GET
+< <DT> REQUEST_SCHEME <DD> https
+---
+> <DT> REMOTE_PORT <DD> 52087
+> <DT> REQUEST_METHOD <DD> POST
+> <DT> REQUEST_SCHEME <DD> http
+46c48
+< <DT> SERVER_PORT <DD> 443
+---
+> <DT> SERVER_PORT <DD> 80
+48c50
+< <DT> SERVER_SIGNATURE <DD> &lt;address&gt;Apache/2.4.6 (CentOS) Server at webdocs.cs.ualberta.ca Port 443&lt;/address&gt;
+---
+> <DT> SERVER_SIGNATURE <DD> &lt;address&gt;Apache/2.4.6 (CentOS) Server at webdocs.cs.ualberta.ca Port 80&lt;/address&gt;
+51,52c53
+< <DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+< <DT> UNIQUE_ID <DD> Y7yvSBx-AeZLF0oZrS0ekgAAAAg
+---
+> <DT> UNIQUE_ID <DD> Y7yvVUaBGKxPBLXz5YpuPQAAAAE
+127a129,130
+> <DT> CONTENT_LENGTH <DD> 3
+> <DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+132d134
+< <DT> HTTPS <DD> on
+139,141c141,143
+< <DT> REMOTE_PORT <DD> 52038
+< <DT> REQUEST_METHOD <DD> GET
+< <DT> REQUEST_SCHEME <DD> https
+---
+> <DT> REMOTE_PORT <DD> 52087
+> <DT> REQUEST_METHOD <DD> POST
+> <DT> REQUEST_SCHEME <DD> http
+148c150
+< <DT> SERVER_PORT <DD> 443
+---
+> <DT> SERVER_PORT <DD> 80
+150c152
+< <DT> SERVER_SIGNATURE <DD> &lt;address&gt;Apache/2.4.6 (CentOS) Server at webdocs.cs.ualberta.ca Port 443&lt;/address&gt;
+---
+> <DT> SERVER_SIGNATURE <DD> &lt;address&gt;Apache/2.4.6 (CentOS) Server at webdocs.cs.ualberta.ca Port 80&lt;/address&gt;
+153,154c155
+< <DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+< <DT> UNIQUE_ID <DD> Y7yvSBx-AeZLF0oZrS0ekgAAAAg
+---
+> <DT> UNIQUE_ID <DD> Y7yvVUaBGKxPBLXz5YpuPQAAAAE
